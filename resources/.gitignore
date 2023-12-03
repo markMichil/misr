@@ -1,0 +1,5 @@
+**/*.css
+**/*.map
+
+/GeoLite2-City_20210622
+/GeoLite2-City_20210622.*

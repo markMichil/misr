@@ -1,0 +1,2 @@
+<?php echo $__env->make("Layout::admin.app", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php /**PATH D:\xampp\htdocs\misrea\findhouse.2.1.0\misr\resources\views/admin/layouts/app.blade.php ENDPATH**/ ?>

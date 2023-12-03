@@ -1,0 +1,20 @@
+<section class="home-one home1-overlay home1_bgi1" style="background-image: url('<?php echo e($bg_image_url); ?>');">
+    <div class="container">
+        <div class="row posr">
+            <div class="col-lg-12">
+                <div class="home_content">
+                    <div class="home-text text-center">
+                        <?php if(!empty($title)): ?>
+                            <h2 class="fz55"><?php echo e($title); ?></h2>
+                        <?php endif; ?>
+                        <?php if(!empty($sub_title)): ?>
+                            <p class="fz18 color-white"><?php echo e($sub_title); ?></p>
+                        <?php endif; ?>
+                    </div>
+                    <?php echo $__env->make("Template::frontend.blocks.form-search-all-service.form-search", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<?php /**PATH /home3/misrprop/public_html/demo/themes/Findhouse/Template/Views/frontend/blocks/form-search-all-service/style_1.blade.php ENDPATH**/ ?>
