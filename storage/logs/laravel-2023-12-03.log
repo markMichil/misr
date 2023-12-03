@@ -1,0 +1,33 @@
+[2023-12-03 15:06:39] production.ERROR: There are no commands defined in the "optimse" namespace.
+
+Did you mean this?
+    optimize {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"optimse\" namespace.
+
+Did you mean this?
+    optimize at /home3/misrprop/public_html/demo/vendor/symfony/console/Application.php:624)
+[stacktrace]
+#0 /home3/misrprop/public_html/demo/vendor/symfony/console/Application.php(675): Symfony\\Component\\Console\\Application->findNamespace('optimse')
+#1 /home3/misrprop/public_html/demo/vendor/symfony/console/Application.php(259): Symfony\\Component\\Console\\Application->find('optimse:clear')
+#2 /home3/misrprop/public_html/demo/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home3/misrprop/public_html/demo/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home3/misrprop/public_html/demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /home3/misrprop/public_html/demo/artisan(40): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2023-12-03 15:06:48] production.ERROR: There are no commands defined in the "optimze" namespace.
+
+Did you mean this?
+    optimize {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"optimze\" namespace.
+
+Did you mean this?
+    optimize at /home3/misrprop/public_html/demo/vendor/symfony/console/Application.php:624)
+[stacktrace]
+#0 /home3/misrprop/public_html/demo/vendor/symfony/console/Application.php(675): Symfony\\Component\\Console\\Application->findNamespace('optimze')
+#1 /home3/misrprop/public_html/demo/vendor/symfony/console/Application.php(259): Symfony\\Component\\Console\\Application->find('optimze:clear')
+#2 /home3/misrprop/public_html/demo/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home3/misrprop/public_html/demo/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home3/misrprop/public_html/demo/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /home3/misrprop/public_html/demo/artisan(40): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2023-12-03 15:09:44] production.DEBUG: The file "/home3/misrprop/public_html/demo/resources/GeoLite2-City_20210622/GeoLite2-City.mmdb" does not exist or is not readable.  
