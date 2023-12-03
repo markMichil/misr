@@ -1,0 +1,7 @@
+9999999999s:408:"<h1 style="text-align: center">Welcome!</h1>
+                    <h3>Hello [first_name] [last_name]</h3>
+                    <p>Thank you for signing up with FindHouse! We hope you enjoy your time with us.</p>
+                    <p>Please click button to verify your email address!</p>
+                    <p>[button_verify]</p>
+                    <p>Regards,</p>
+                    <p>FindHouse</p>";

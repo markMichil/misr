@@ -159,23 +159,23 @@
                             </div>
                         </div>
                         @include('Property::frontend.layouts.details.property_video')
-                        <div class="col-lg-12">
-                            @include('Agencies::frontend.detail.review', ['review_service_id' => $row['id'], 'review_service_type' => 'property'])
-                        </div>
-                        @include('Property::frontend.layouts.details.property-related')
+{{--                        <div class="col-lg-12">--}}
+{{--                            @include('Agencies::frontend.detail.review', ['review_service_id' => $row['id'], 'review_service_type' => 'property'])--}}
+{{--                        </div>--}}
+{{--                        @include('Property::frontend.layouts.details.property-related')--}}
                     </div>
                 </div>
                 <div class="col-lg-4 col-xl-4 mt50">
-                    <div class="sidebar_listing_list">
-                        <div class="sidebar_advanced_search_widget">
-                            @include('Property::frontend.layouts.details.agent')
-                            @include('Property::frontend.layouts.details.contact')
-                        </div>
-                    </div>
-                    @include('Property::frontend.layouts.search.form-search')
-                    @include('Property::frontend.sidebar.FeatureProperty')
+{{--                    <div class="sidebar_listing_list">--}}
+{{--                        <div class="sidebar_advanced_search_widget">--}}
+{{--                            @include('Property::frontend.layouts.details.agent')--}}
+{{--                            @include('Property::frontend.layouts.details.contact')--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    @include('Property::frontend.layouts.search.form-search')--}}
+{{--                    @include('Property::frontend.sidebar.FeatureProperty')--}}
                     @include('Property::frontend.sidebar.categoryProperty')
-                    @include('Property::frontend.sidebar.recentViewdProperty')
+{{--                    @include('Property::frontend.sidebar.recentViewdProperty')--}}
                 </div>
             </div>
         </div>
